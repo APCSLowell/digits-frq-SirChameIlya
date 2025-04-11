@@ -12,7 +12,7 @@ public class Digits
 		digitList.add(0, num%10);
 		num = num/10;
 	}
-	digitList.add(num);	
+	digitList.add(0, num);	
 	}
 
 	public boolean isStrictlyIncreasing()
